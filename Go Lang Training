@@ -1,0 +1,80 @@
+GO LANG INSTALLATION (go.dev/doc/install) go version -> 1.19
+after following the above steps in doc then follow below 
+
+-> nano .bashrc
+
+-> Two Statements need to be added in .bashrc to make the path permanent of go 
+ 1. export PATH=$PATH:/usr/local/go  (This is the localtion of go in our system)
+ 2. export GOPATH= ~/repos/go/      (setting our go path)
+ 
+ 3. source ~/.bashrc
+ 4. source $HOME/.profile
+ 
+ GO LAND IDE INSTALLATION
+ 
+ -> Open new project in location ~repos/go(empty)/src/Training 
+ SDK add -> /usr/local/go
+ 
+ file creation of go
+ 
+ 1. Difference of C and Go
+ 2. Structure of Go
+ 3. Why only package main need to be used in go 
+ 
+ 
+ 
+ 
+ssh-keygen -t ed25519 -C "vijayadurgakrishnaprasad.maramalla@zopsmart.com"
+
+
+my ssh key 
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAXj0ap/+L9s6CrOY5Yse4q9trvbma3SMi71EPFDMMSb vijayadurgakrishnaprasad.maramalla@zopsmart.com
+
+file watchers  -> go fmt and go imports
+
+file watchers -> beautifying our code takes care of indentations and etc 
+
+how to autosave the code in goland ide - figureout (done)
+
+
+git configuration 
+
+git config --global user.name krishnarakshann
+git config --global user.email vijayadurgakrishnaprasad.maramalla@zopsmart.com
+git config --global url.ssh://git@github.com/.insteadOf https://github.com/
+
+// to make sure of ur config details 
+nano ~/.gitconfig (you can see the above configured details)
+
+git basics 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
