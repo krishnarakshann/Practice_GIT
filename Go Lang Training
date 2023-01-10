@@ -49,11 +49,37 @@ nano ~/.gitconfig (you can see the above configured details)
 
 git basics 
 
-git status
-git diff
+So First you ned to make sure that the directory has initialised git 
+
+// Initialising git 
+move to the particular directory where you want to initialise git 
+-> touch README.md
+-> git init
+
+// Adding the files to staging area for commit
+
+git add . (to push all the files in the directory)
+git status (to know which files need to be commited or if there are any changes)
+
+// commiting the changes to git repo 
+
+git commit -m "Commit Message"
+git remote add origin repository url
+git push -u origin master
+
+
+git diff (To know if there are any changes in the files in the particular repo from last commit)
+
 git checkout 
 
 
+ 
+Each time you make changes that you want to be reflected on GitHub, the following are the most common flow of commands:
+
+$ git add .
+$ git status # Lists all new or modified files to be committed
+$ git commit -m "Second commit"
+$ git push -u origin master
 
 
 
