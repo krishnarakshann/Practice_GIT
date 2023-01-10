@@ -92,9 +92,23 @@ git pull
 git fetch
 git merge
 
+
+Branches in Git
+
+git branch <branchname>
+git checkout branchname(To switch to a required branch from current )
+git branch -d <branchname> (To delete a branch after merging it into main branch)
+git branch -D <branchname> (Force Deletion of branch before merging it into main/master)
+
+// Merging into Master/Main
+
+
+
+
+
 difference between branches nd remote branches
 relation between a commit and branch
-
+difference between commit and merge commit 
 
 
 
