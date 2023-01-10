@@ -49,7 +49,9 @@ nano ~/.gitconfig (you can see the above configured details)
 
 git basics 
 
-
+git status
+git diff
+git checkout 
 
 
 
