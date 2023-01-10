@@ -72,7 +72,7 @@ git diff (To know if there are any changes in the files in the particular repo f
 
 git checkout 
 
-
+git log (History of the Commits )
  
 Each time you make changes that you want to be reflected on GitHub, the following are the most common flow of commands:
 
@@ -82,8 +82,18 @@ $ git commit -m "Second commit"
 $ git push -u origin master
 
 
+From our repository to Local System
 
+// Move to the directory where you want to clone your repository 
 
+git clone repository_url -> This command is used to make a copy of a repository from an existing URLof your repository into your local system
+
+git pull 
+git fetch
+git merge
+
+difference between branches nd remote branches
+relation between a commit and branch
 
 
 
