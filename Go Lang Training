@@ -1,7 +1,6 @@
 GO LANG INSTALLATION (go.dev/doc/install) go version -> 1.19
 after following the above steps in doc then follow below 
 
--> nano .bashrc
 
 -> Two Statements need to be added in .bashrc to make the path permanent of go 
  1. export PATH=$PATH:/usr/local/go  (This is the localtion of go in our system)
