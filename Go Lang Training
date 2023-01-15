@@ -6,7 +6,6 @@ after following the above steps in doc then follow below
  1. export PATH=$PATH:/usr/local/go  (This is the localtion of go in our system)
  2. export GOPATH= ~/repos/go/      (setting our go path)
  
- 3. source ~/.bashrc
  4. source $HOME/.profile
  
  GO LAND IDE INSTALLATION
