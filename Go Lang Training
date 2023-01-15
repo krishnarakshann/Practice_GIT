@@ -92,7 +92,12 @@ git pull
 git fetch
 git merge
 
+<<<<<<< HEAD
 BRANCHES IN GIT 
+=======
+
+Branches in Git
+>>>>>>> master
 
 git branch <branchname>
 git checkout branchname(To switch to a required branch from current )
@@ -101,6 +106,13 @@ git branch -D <branchname> (Force Deletion of branch before merging it into main
 
 // Merging into Master/Main
 
+<<<<<<< HEAD
+=======
+
+1 st step is to move to the correct merge receiving
+
+
+>>>>>>> master
 difference between branches nd remote branches
 relation between a commit and branch
 difference between commit and merge commit 
